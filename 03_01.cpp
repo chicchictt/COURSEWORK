@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int i = 0;//导入第一个数为i，便于比较 
-    cout << "请输入第一个数：" << endl;
+    int i = 0;//导入第一个数为i，便于比较
+    cout << "请输入第一个数：" << endl;//提示用户输入第一个值
     cin >> i;
-    int j = 0;//提示用户输入第一个值
-    cout << "请输入第二个数:" << endl;
+    int j = 0;
+    cout << "请输入第二个数:" << endl;//用户输入第二个值
     cin >> j;
     if (i>j)//if语句，情况为i大于j，即第一个数大于第二个数
     {
